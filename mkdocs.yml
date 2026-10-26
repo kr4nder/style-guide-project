@@ -1,0 +1,36 @@
+site_name: Руководство по стилю документации TaskFlow
+site_description: Правила написания и оформления пользовательской и технической документации сервиса TaskFlow
+site_url: https://kr4nder.github.io/style-guide-project/
+repo_url: https://github.com/kr4nder/style-guide-project
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.action.edit
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.keys
+  - pymdownx.superfences
+
+nav:
+  - Главная: index.md
+  - Стиль изложения: style/tone.md
+  - Орфография и пунктуация: style/spelling.md
+  - Оформление текста: style/formatting.md
+  - Работа с Markdown: style/markdown.md
+  - Шаблоны:
+      - Инструкция: doc-templates/instruction.md
+      - Метод API: doc-templates/api-method.md
+  - Примеры применения:
+      - Инструкция «Создание проекта»: examples/create-project.md
+      - Метод «Создать задачу»: examples/create-task.md
+  - Глоссарий: glossary.md
