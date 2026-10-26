@@ -27,6 +27,7 @@ nav:
   - Орфография и пунктуация: style/spelling.md
   - Оформление текста: style/formatting.md
   - Работа с Markdown: style/markdown.md
+  - Доступность текста: style/accessibility.md
   - Шаблоны:
       - Инструкция: doc-templates/instruction.md
       - Метод API: doc-templates/api-method.md
